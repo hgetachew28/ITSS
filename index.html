@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Academics - Grade Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>My Academics</h1>
+            <button class="back-btn">←</button>
+        </header>
+
+        <!-- Semester Section -->
+        <div class="semester-section">
+            <div class="semester-info">
+                <div>
+                    <h2>2026 Spring</h2>
+                    <p>Undergraduate</p>
+                </div>
+                <button class="change-btn">Change</button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content-wrapper">
+            <!-- Sidebar Navigation -->
+            <aside class="sidebar">
+                <nav class="nav-menu">
+                    <div class="nav-item">
+                        <span class="nav-icon">📋</span>
+                        <span>My Course History</span>
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-icon">📄</span>
+                        <span>View/Request Plan Change</span>
+                    </div>
+                    <div class="nav-item active">
+                        <span class="nav-icon">📊</span>
+                        <span>View My Grades</span>
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-icon">🔒</span>
+                        <span>FERPA Confidentiality</span>
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-icon">📜</span>
+                        <span>View My Transcript</span>
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-icon">🎓</span>
+                        <span>Order Official Transcript</span>
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-icon">✓</span>
+                        <span>Enrollment Verification Print</span>
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-icon">📑</span>
+                        <span>My Degree Audit</span>
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-icon">🔄</span>
+                        <span>View My Transfer Credit Report</span>
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-icon">📋</span>
+                        <span>Residency Verification Letter</span>
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-icon">⚕️</span>
+                        <span>Bacterial Meningitis Letter</span>
+                    </div>
+                </nav>
+            </aside>
+
+            <!-- Main Panel -->
+            <main class="main-panel">
+                <h2 class="panel-title">View My Grades</h2>
+
+                <!-- GPA Stats -->
+                <div class="gpa-stats">
+                    <div class="stat-row">
+                        <span class="stat-label">Term GPA</span>
+                        <span class="stat-value">3.650</span>
+                        <span class="stat-arrow">›</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Cumulative GPA</span>
+                        <span class="stat-value">3.500</span>
+                        <span class="stat-arrow">›</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Academic Standing</span>
+                        <span class="stat-value">Good Standing</span>
+                        <span class="stat-arrow">›</span>
+                    </div>
+                </div>
+
+                <!-- Grades Table -->
+                <div class="table-wrapper">
+                    <div class="table-header">
+                        <span class="row-count">5 rows</span>
+                    </div>
+                    <table class="grades-table">
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>Units</th>
+                                <th>Grading</th>
+                                <th>Grade</th>
+                                <th>Grade Points</th>
+                                <th>Mid Term 1</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CS 1436</td>
+                                <td>4.00</td>
+                                <td>Graded - Undergraduate Courses</td>
+                                <td>A-</td>
+                                <td>15.200</td>
+                                <td>A</td>
+                                <td class="expand">›</td>
+                            </tr>
+                            <tr>
+                                <td>ITSS 3300</td>
+                                <td>3.00</td>
+                                <td>Graded - Undergraduate Courses</td>
+                                <td>A</td>
+                                <td>12.000</td>
+                                <td>A</td>
+                                <td class="expand">›</td>
+                            </tr>
+                            <tr>
+                                <td>OPRE 3333</td>
+                                <td>3.00</td>
+                                <td>Graded - Undergraduate Courses</td>
+                                <td>B+</td>
+                                <td>10.200</td>
+                                <td>B+</td>
+                                <td class="expand">›</td>
+                            </tr>
+                            <tr>
+                                <td>OPRE 3360</td>
+                                <td>3.00</td>
+                                <td>Graded - Undergraduate Courses</td>
+                                <td>A</td>
+                                <td>12.000</td>
+                                <td>A</td>
+                                <td class="expand">›</td>
+                            </tr>
+                            <tr>
+                                <td>MATH 2414</td>
+                                <td>4.00</td>
+                                <td>Graded - Undergraduate Courses</td>
+                                <td>B</td>
+                                <td>12.000</td>
+                                <td>B</td>
+                                <td class="expand">›</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
